@@ -1,0 +1,119 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+.background-color {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(33, 151, 155);
+}
+
+.background-top {
+    position:relative;
+    bottom: 600px;
+    right: 300px;
+
+}
+
+.background-bottom {
+    position: relative;
+    bottom: 700px;
+    left: 700px;
+}
+
+
+
+/* Profile Card */
+.profile-card {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    bottom: 30%;
+    width: 310px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.card-pattern img {
+    width: 310px;
+    height: 130px;
+    margin:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.profile-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    left: 35%;
+    bottom: 170px;  
+}
+
+.bottom-half {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.name-age {
+    margin-top: 20px;
+}
+
+.location {
+    margin: 10px auto 20px;
+}
+
+hr {
+    height: 0;
+    border: none;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.traffic-info {
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+
+/* Text */
+span {
+    color: rgb(136, 136, 136);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold 900;
+}
+
+#age-font-size {
+    font-size: 16px;
+}
+
+#location-font-size {
+    font-size: 14px;
+}
+
+.traffic-info h3,
+.traffic-info p {
+    margin: 0 15px;
+}
+
+
+
+
+
+
+
+
